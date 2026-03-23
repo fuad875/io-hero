@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router';
-import lodingImg from '../../assets/photo/logo.png'
+import logoimg from '../../assets/photo/logo.png';
 
 const NavBar = () => {
     const links = <>
@@ -22,7 +22,7 @@ const NavBar = () => {
                            {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">HERO.IO</a>
+                    <a className="btn btn-ghost text-xl"><span><img className='h-10 object-cover' src={logoimg}/></span>HERO.IO</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

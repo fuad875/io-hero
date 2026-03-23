@@ -1,6 +1,6 @@
 [
   {
-    "image": "https://example.com/app1.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=TaskMaster",
     "title": "TaskMaster Pro",
     "companyName": "NextGen Labs",
     "id": 1,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "image": "https://example.com/app2.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=FitTrack",
     "title": "FitTrack",
     "companyName": "Healthify Inc",
     "id": 2,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "image": "https://example.com/app3.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=NoteNest",
     "title": "NoteNest",
     "companyName": "SoftCore Ltd",
     "id": 3,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "image": "https://example.com/app4.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=WeatherNow",
     "title": "WeatherNow",
     "companyName": "SkyTech",
     "id": 4,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "image": "https://example.com/app5.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=PhotoSnap",
     "title": "PhotoSnap",
     "companyName": "Pixel Studio",
     "id": 5,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "image": "https://example.com/app6.png",
+    "image":  "https://api.dicebear.com/7.x/shapes/svg?seed=BudgetBuddy",
     "title": "BudgetBuddy",
     "companyName": "FinTrack",
     "id": 6,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "image": "https://example.com/app7.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=LearnHub",
     "title": "LearnHub",
     "companyName": "EduTech",
     "id": 7,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "image": "https://example.com/app8.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=GameZone",
     "title": "GameZone",
     "companyName": "FunPlay",
     "id": 8,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "image": "https://example.com/app9.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=ChatLoop",
     "title": "ChatLoop",
     "companyName": "Connectify",
     "id": 9,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "image": "https://example.com/app10.png",
+    "image":  "https://api.dicebear.com/7.x/shapes/svg?seed=MusicWave",
     "title": "MusicWave",
     "companyName": "SoundLab",
     "id": 10,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "image": "https://example.com/app11.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=TravelMate",
     "title": "TravelMate",
     "companyName": "GlobeTrot",
     "id": 11,
@@ -198,7 +198,7 @@
     ]
   },
   {
-    "image": "https://example.com/app12.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=SecureVault",
     "title": "SecureVault",
     "companyName": "CyberSafe",
     "id": 12,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "image": "https://example.com/app13.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=Foodie",
     "title": "Foodie",
     "companyName": "TasteTech",
     "id": 13,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "image": "https://example.com/app14.png",
+    "image":  "https://api.dicebear.com/7.x/shapes/svg?seed=LanguageBoost",
     "title": "LanguageBoost",
     "companyName": "LinguaTech",
     "id": 14,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "image": "https://example.com/app15.png",
+    "image": "https://api.dicebear.com/7.x/shapes/svg?seed=DocScanner",
     "title": "DocScanner",
     "companyName": "ScanPro",
     "id": 15,

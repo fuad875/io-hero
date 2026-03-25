@@ -1,9 +1,10 @@
 import React from 'react';
 import heroIcon from '../../assets/photo/hero.png'
-import { useLoaderData } from 'react-router';
+import { Link, useLoaderData, useNavigate } from 'react-router';
 
 const Banner = () => {
     const appsData = useLoaderData();
+    const navigate = useNavigate();
 
     return (
         <div>
@@ -48,7 +49,7 @@ const Banner = () => {
             <div>
                 <h1 className='font-bold text-3xl text-center'>Trending Apps</h1>
                 <p className='text-center '>Explore All the Apps on the market Developed By Apps</p>
-                <div className='grid grid-cols-4 mt-3  items-center justify-items-center '>
+                <div onClick={()=>navigate(`/apps`)} className='grid grid-cols-4 mt-3  items-center justify-items-center '>
                     {
                        [...appsData].sort((a,b)=>b.ratingAvg - a.ratingAvg).slice(0,8).map((appData) => (
                             <div className="card bg-base-100 w-60 p-4  shadow-sm">

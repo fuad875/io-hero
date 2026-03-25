@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link, useNavigate} from 'react-router';
 import logoimg from '../../assets/photo/logo.png';
 
 const NavBar = () => {
@@ -8,6 +8,8 @@ const NavBar = () => {
         <Link to="/apps"><span className='font-bold mx-2 px-2 rounded hover:bg-sky-300'>Apps</span></Link>
         <Link to="/installation"><span className='font-bold mx-2 px-2 rounded hover:bg-sky-300'>Installation</span></Link>
     </>
+
+    const goHome = useNavigate();
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm">
@@ -22,7 +24,7 @@ const NavBar = () => {
                            {links}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl"><span><img className='h-10 object-cover' src={logoimg}/></span>HERO.IO</a>
+                    <a onClick={()=>goHome(`/`)} className="btn btn-ghost text-xl"><span><img className='h-10 object-cover' src={logoimg}/></span>HERO.IO</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">

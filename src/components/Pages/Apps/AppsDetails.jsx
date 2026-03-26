@@ -1,16 +1,18 @@
 import React from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { useLoaderData, useNavigate, useParams } from 'react-router';
+ import { ToastContainer, toast } from 'react-toastify';
 
 const AppsDetails = () => {
 
     const { id } = useParams();
     const appId = parseInt(id);
     const appData = useLoaderData();
+    const  navigateInstallation = useNavigate();
 
     const appInfo = appData.find(app => app.id === appId);
     // console.log(appInfo);
     return (
-    <div className=' className="px-6 my-10'>
+    <div className=''>
         <div className="card card-side bg-base-100 shadow-sm">
             <figure>
                 <img
@@ -38,10 +40,15 @@ const AppsDetails = () => {
                     </div>
                 </div>
                 <div className="card-actions">
-                    <button className="btn btn-accent text-2xl">Install now ( {appInfo.size})</button>
+                    <button  onClick={()=> {
+                        toast.success(`${appInfo.name} installation started!`);
+                        navigateInstallation('/installation',{state:appInfo})}}  className="btn btn-accent text-2xl">Install now ( {appInfo.size})</button>
+                   
                 </div>
+                 <ToastContainer />
             </div>
         </div>
+          
     </div> 
     );
 };

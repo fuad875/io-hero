@@ -49,10 +49,10 @@ const Banner = () => {
             <div>
                 <h1 className='font-bold text-3xl text-center'>Trending Apps</h1>
                 <p className='text-center '>Explore All the Apps on the market Developed By Apps</p>
-                <div onClick={()=>navigate(`/apps`)} className='grid grid-cols-4 mt-3  items-center justify-items-center '>
+                <div onClick={()=>navigate(`/apps`)} className='grid grid-cols-1 md:grid-cols-4 mt-3  items-center justify-items-center '>
                     {
                        [...appsData].sort((a,b)=>b.ratingAvg - a.ratingAvg).slice(0,8).map((appData) => (
-                            <div className="card bg-base-100 w-60 p-4  shadow-sm">
+                            <div key={appData.id} className="card bg-base-100 w-60 p-4  shadow-sm">
                                 <figure>
                                     <img className='object-cover rounded hover:scale-100 transition-all hover:-rotate-3'
                                         src={appData.image}

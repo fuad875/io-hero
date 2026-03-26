@@ -18,7 +18,7 @@ const Installation = () => {
                 const updated = [...installed, appIns];
                 localStorage.setItem('apps', JSON.stringify(updated));
                 setInstalledApps(updated);
-                 toast("App installed");
+                 toast(`${appIns.name} installation started!`);
             } else {
                 setInstalledApps(installed);
             }

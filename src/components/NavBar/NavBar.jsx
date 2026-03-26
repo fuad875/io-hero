@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useNavigate} from 'react-router';
 import logoimg from '../../assets/photo/logo.png';
+import { FaGithub } from "react-icons/fa";
 
 const NavBar = () => {
     const links = <>
@@ -32,7 +33,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn btn-primary">Contribute</a>
+                    <a href='https://github.com/fuad875?tab=repositories' target='blank' className="btn btn-primary"><FaGithub size={15} />Contribute</a>
                 </div>
             </div>
         </div>

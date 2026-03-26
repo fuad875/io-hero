@@ -41,7 +41,7 @@ const AppsDetails = () => {
                 </div>
                 <div className="card-actions">
                     <button  onClick={()=> {
-                        toast.success(`${appInfo.name} installation started!`);
+                       
                         navigateInstallation('/installation',{state:appInfo})}}  className="btn btn-accent text-2xl">Install now ( {appInfo.size})</button>
                    
                 </div>
